@@ -1,0 +1,39 @@
+.site-header {
+    background-color: black;
+    padding: 10px 0;
+    border-radius: 16px;
+    position: sticky;
+    top: 5px;
+    height: 50px;
+
+}
+
+.site-header ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+
+}
+
+.site-header a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 240px;
+    gap: 20px;
+    align-items: start;
+}
+
+
+.main-content .sidebar {
+    background-color: orange;
+    border-radius: 16px;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: calc(5px + 50px + 25px)
+}
+
